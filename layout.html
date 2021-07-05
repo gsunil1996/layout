@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>layout.html</title>
+        <style>
+        .first_container{
+            width: 1200px;
+            height: 80px;
+            /* border: 2px solid green; */
+            margin: auto;
+            text-align: center;
+        }
+        .first_container > div{
+            margin-top: 10px;
+            font-size: 15px;
+            color: rgb(255,82,39);
+            font-weight: bolder;
+            margin-bottom: -5px;
+        }
+        .second_container{
+            width: 1200px;
+            height : 250px;
+            /* border: 2px solid red; */
+            margin: auto;
+           
+        }
+        .image_block{
+            width: 350px;
+            height: 200px;
+            /* border: 2px solid brown; */
+            margin-top: 20px;
+             float: left;
+             margin-left:35px;
+        }
+        .image_block img{
+            height: 150px;
+            width: 200px;
+            margin-left: 70px;
+        }
+        .image_block div, h4{
+          margin-left: 70px;
+        }
+        .image_block > div{
+            margin-top: 5px;
+              color: grey;
+        }
+        .image_block > h4{
+            margin-top: 5px;
+            
+        }
+        .third_container{
+            width: 1200px;
+            height: 30px;
+            /* border: 2px solid blue; */
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .third_container > button{
+            width: 100px;
+            height: 30px;
+            background-color: rgb(255,51,0);
+            color: white;
+        }
+        .fourth_container{
+            height: 150px;
+            width: 1200px;
+            margin: auto;
+            /* border: 2px solid springgreen; */
+            text-align: center;
+        }
+        .fourth_container > div:first-child{
+          font-weight: bolder;
+          color: orangered;
+          margin-top: 50px;
+          margin-bottom: -10px;
+        }
+        .fourth_container > dd{
+            margin-top: -20px;
+            color: grey;
+            font-weight: bolder;
+        }
+        .fourth_container > span{
+            color: grey;
+            font-weight: bolder;
+        }
+        .fourth_container >h2{
+            margin-bottom: 30px;
+        }
+        .fifth_container{
+            height: 450px;
+            width: 1200px;
+            /* border: 2px solid black; */
+            margin: auto;
+            margin-top: -30px;
+          
+        }
+        .logo_block{
+            height: 200px;
+            width: 370px;
+            /* border: 2px solid darkred; */
+            margin-top: 20px;
+            float: left;
+            margin-left: 20px;
+        }
+        .logo_block > img{
+            float: left;
+            margin-left: 20px;
+            margin-right: 15px;
+            margin-top: 20px;
+        }
+        .logo_block > div {
+         margin-left: 140px;
+         color: grey;
+        }
+        .logo_block > h2{
+            margin: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+        <div class="first_container">
+        <div>NWES & UPDATE</div>
+        <h1>Our Blog Posts</h1>
+        </div>
+           
+       <div class="second_container">
+        <div class="image_block">
+        <img src="https://via.placeholder.com/150C/O https://placeholder.com/"/>
+        <div>29 Januvary 2019</div>
+        <h4>Architectural Art Modern</h4>
+        </div>
+
+        <div class="image_block">
+            <img src="https://via.placeholder.com/150C/O https://placeholder.com/" />
+            <div>29 Januvary 2019</div>
+            <h4>Architectural Art Modern</h4>
+        </div>
+
+        <div class="image_block">
+            <img src="https://via.placeholder.com/150C/O https://placeholder.com/" />
+            <div>29 Januvary 2019</div>
+            <h4>Architectural Art Modern</h4>
+        </div>
+       </div> 
+
+       <div class="third_container">
+         <button>View All Posts</button>
+       </div>
+
+       <div class="fourth_container">
+        <div>Services</div>
+        <h2>Our Services</h2>
+        <dd>Lorem ipsum doter sit amet, consectetur adipisicing elit. Eligendi exclipabo, quasi, Magini</dd>
+        <span>deserunt sunt labore</span>
+       </div>
+
+       <div class="fifth_container">
+           <div class="logo_block">
+           <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text"/>
+           <h2>Innovative Structure</h2>
+           <div>Cras sit amet nibh libero, in gravida</div>
+           <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+           </div>
+
+        <div class="logo_block">
+            <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text" />
+            <h2>Innovative Structure</h2>
+            <div>Cras sit amet nibh libero, in gravida</div>
+            <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+        </div>
+
+        <div class="logo_block">
+            <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text" />
+            <h2>Innovative Structure</h2>
+            <div>Cras sit amet nibh libero, in gravida</div>
+            <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+        </div>
+
+        <div class="logo_block">
+            <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text" />
+            <h2>Innovative Structure</h2>
+            <div>Cras sit amet nibh libero, in gravida</div>
+            <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+        </div>
+
+        <div class="logo_block">
+            <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text" />
+            <h2>Innovative Structure</h2>
+            <div>Cras sit amet nibh libero, in gravida</div>
+            <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+        </div>
+
+        <div class="logo_block">
+            <img src="https://via.placeholder.com/100C/O https://placeholder.com/#How_To_Set_Custom_Text" />
+            <h2>Innovative Structure</h2>
+            <div>Cras sit amet nibh libero, in gravida</div>
+            <div>nulla. Nulla vel mutus scelerisque ante sollicitudin</div>
+        </div>
+
+
+       </div>
+
+        </div>
+    </body>
+</html>
